@@ -32,8 +32,10 @@
         "name": "<from env>",
         "key": "<from env>",
         "secret": "<from env>",
-        "ccxt_config": {},
+        "ccxt_config": {"enableRateLimit": true},
         "ccxt_async_config": {
+            "enableRateLimit": true,
+            "rateLimit": 500
         },
         "pair_whitelist": [
             "ADA/USD",
@@ -121,8 +123,8 @@
                 "1h"
             ],
             "include_corr_pairlist": [
-                "BTC/USDT:USDT",
-                "ETH/USDT:USDT"
+                "BTC/USD:USD",
+                "ETH/USD:USD"
             ],
             "label_period_candles": 20,
             "include_shifted_candles": 2,

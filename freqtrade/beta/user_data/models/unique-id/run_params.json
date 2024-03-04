@@ -13,8 +13,8 @@
                 "1h"
             ],
             "include_corr_pairlist": [
-                "BTC/USDT:USDT",
-                "ETH/USDT:USDT"
+                "BTC/USD:USD",
+                "ETH/USD:USD"
             ],
             "label_period_candles": 20,
             "include_shifted_candles": 2,

@@ -1,6 +1,9 @@
 # Project specific
 _data
 user_data/logs/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
 
 # Editors
 .vscode/
