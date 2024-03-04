@@ -1,5 +1,6 @@
 # Project specific
 _data
+user_data/logs/
 
 # Editors
 .vscode/
